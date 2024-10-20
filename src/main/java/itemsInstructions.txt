@@ -1,0 +1,20 @@
+1. Add this line to ModItems.java with custom item
+public static final RegistryObject<Item> FROSTINE = ITEMS.register("frostine", ()-> new Item (new Item.Properties()));
+
+2. Add this line to FrostyFrontiers.java in the addCreative tab
+if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+    event.accept(ModItems.FROSTINE);
+}
+
+3. Add this into the json object in frostyfrontiers/lang/en_us.json
+  "item.frostyfrontiers.frostine": "FROSTINE"
+
+4. create json file under frostyfrontiers/models/item/frostine.json (change to whatever item is)
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "frostyfrontiers:item/frostine"
+  }
+}
+
+5.Add png of same name as layer0 of upper json into frostyfrontiers/textures/item (ex. frostine from "frostyfrontiers:item/frostine")
