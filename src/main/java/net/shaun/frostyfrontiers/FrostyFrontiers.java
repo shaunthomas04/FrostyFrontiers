@@ -57,6 +57,8 @@ public class FrostyFrontiers
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.FROSTINE);
+            event.accept(ModItems.SNOWBERRY);
+
         }
     }
 
