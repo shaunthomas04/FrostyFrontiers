@@ -1,6 +1,15 @@
 {
   "item.frostyfrontiers.frostine": "FROSTINE",
+  "item.frostyfrontiers.creamysnow": "CREAMYSNOW",
 
-  "item.frostyfrontiers.snowberry": "SNOWBERRY"
+
+  "item.frostyfrontiers.snowberry": "SNOWBERRY",
+  "item.frostyfrontiers.snowberrypie": "SNOWBERRYPIE",
+  "item.frostyfrontiers.icecream": "ICECREAM",
+
+  "item.frostyfrontiers.yetifur": "YETIFUR",
+  "item.frostyfrontiers.yeticlaw": "YETICLAW"
+
+
 
 }

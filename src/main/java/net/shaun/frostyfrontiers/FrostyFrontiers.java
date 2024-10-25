@@ -56,8 +56,18 @@ public class FrostyFrontiers
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            //Frostine/Ore/Geological Items
             event.accept(ModItems.FROSTINE);
+            event.accept(ModItems.CREAMYSNOW);
+
+            //Food Items
             event.accept(ModItems.SNOWBERRY);
+            event.accept(ModItems.SNOWBERRYPIE);
+            event.accept(ModItems.ICECREAM);
+
+            //Yeti Items
+            event.accept(ModItems.YETIFUR);
+            event.accept(ModItems.YETICLAW);
 
         }
     }
